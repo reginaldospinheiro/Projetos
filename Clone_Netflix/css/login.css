@@ -1,0 +1,67 @@
+/*Declaração de variavel em CSS*/
+/*root é o caminho raiz da pasta*/
+:root{
+    --vermelho:#e50914;
+    --preto:#141414;
+    --branco: #ffffff;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background: var(--preto);
+    font-family: 'Source Sans Pro Black', Helvetica, sans-serif;
+    color: var(--branco);
+}
+
+.login_body{
+    display: flex;
+    justify-content: center;
+    
+    background-color: rgba(51,51,51);
+}
+
+
+.container{
+    
+   
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+
+main .container{
+    
+    flex-direction: column;
+    
+    
+    align-items: center;
+}
+
+.l_main p{
+    font-size: 40px;
+}
+
+.f_main{
+    display: ;
+    flex-direction: column;
+}
+
+.f_main input{
+    background-color: rgba(51,51,51);
+    color: rgba(98,107,107);
+    padding: 15px;
+    width: 50%;
+    margin-top: 15px;
+
+
+}

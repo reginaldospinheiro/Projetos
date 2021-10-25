@@ -15,7 +15,7 @@
 
 body{
     background: var(--preto);
-    font-family: 'Arial Black', Helvetica, sans-serif;
+    font-family: 'Source Sans Pro Black', Helvetica, sans-serif;
     color: var(--branco);
 }
 
@@ -33,8 +33,10 @@ header .container{
     margin-top: 15px;
 }
 
-header img{
-    height: 70px;
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
 }
 
 option{
@@ -49,17 +51,21 @@ option{
     margin-right: 20px;
     font-size: 15px;
     border-radius: 3px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .botao2{
     background: var(--vermelho);
-    color: #ffffff;
     padding: 8px 18px;
     font-size: 15px;
     border-radius: 5px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
+}
+
+.botao2 a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .botao3{
@@ -69,7 +75,7 @@ option{
     width: 15%;
     font-size: 30px;
     border-radius: 3px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     cursor: pointer;
 }
 
@@ -77,7 +83,7 @@ option{
 
 main .info_p{
     font-size:40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top: 150px;
     text-align: center;
     justify-content: center;
@@ -112,4 +118,125 @@ main .info_p3{
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+
+section{
+    
+    
+}
+section .container{
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+section .container .sessao_cont{
+    justify-content: start;
+    background-color: ;
+    padding: 50px;
+    margin-right: 90px;
+    margin-top: -150px;
+
+
+}
+
+section .sessao1_p1{
+    color: var(--branco);
+    font-size: 50px;
+    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+section .sessao1_p2{
+    color: var(--branco);
+    font-size: 20px;
+    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+section .container2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+.perguntas{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p_perguntas{
+    font-size: 60px;
+}
+
+
+
+.p_lista{
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.p_lista ul li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: rgb(48,48,48);
+    padding: 10px;
+    margin-top: 10px;
+      
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(98,117,117);
+    
+}
+
+footer .rodape{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    
+}
+
+footer .d_rodape{
+    margin-right: 70px;
+}
+
+footer .d_rodape p{
+    margin-bottom: 10px;
+}
+
+.botao_r{
+    margin-top: 20px;
+    background-color: var(--preto);
+    color: rgb(98,117,117);
+    padding: 12px 18px;
+    border: rgb(98,117,117) solid 0.5px;
+    margin-right: 20px;
+    font-size: 15px;
+    border-radius: 3px;
+    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.botao_r:hover{
+    border: var(--branco) 1px solid;
+    
+}
+
+select option{
+    background: var(--preto);
 }
