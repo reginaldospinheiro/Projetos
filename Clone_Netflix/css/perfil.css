@@ -1,0 +1,88 @@
+/*Declaração de variavel em CSS*/
+/*root é o caminho raiz da pasta*/
+:root{
+    --vermelho:#e50914;
+    --preto:#141414;
+    --branco: #ffffff;
+    --cinza: #627575;
+    --cinza2: #303030;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background: rgba(0, 0, 0, .90);
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times, serif;
+    font-size: 40px;
+    padding: 15px;
+}
+
+main .container{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.boxinterna{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.perfil a{
+    text-decoration: none;
+    color: var(--branco);
+    height: 55%;
+    width: 12%;
+}
+
+.boxinterna img:hover{
+    transform: scale(1.1);
+    animation: zoom 1s;
+}
+
+@keyframes zoom {
+    0%{
+        transform: scale(1.1);
+}
+    100%{
+        transform: scale(1);
+}
+}
+
+.p_main{
+    color: var(--branco);
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.button{
+    margin-top: 40px;
+}
+
+.b_main{
+    color: var(--cinza);
+    background-color: unset;
+    padding: 10px 20px;
+    cursor: pointer;
+}

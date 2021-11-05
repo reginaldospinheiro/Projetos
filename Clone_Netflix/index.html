@@ -1,36 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-     <link rel="stylesheet" href="./css/index.css">
-    
+    <link rel="stylesheet" href="./css/index.css">
     <title>HENSHIN-FLIX - Séries de Tokusatso online </title>
 </head>
-<body>
 
+<body>
     <header>
         <div class="container">
-            <p class="logo">HENSHIN-FLIX</p>
-          <div class="botoes">
-              <select name="idioma" id="idioma" class="botao1"> <i class="fas fa-globe"></i>
-                <option value="pt">Português</option>
-                <option value="en">English</option>
+            <div class="menu">
+                <p class="logo">HENSHIN-FLIX<div class="botao"> 
+              <select name="idioma" id="idioma" class="botao1">
+                <div class="botao">
+                    <option value="pt">Português</option>
+                    <option value="en">English</option>
+                </div>
               </select>
              <button role="button" class=botao2><a href="login.html">Entrar</a></button>
-              
-          </div>
+            </div>
         </div>
-    </header>
-
-    <main>
-        <div class="container">
+        <div class="menu_info">
             <div class="info_p">
-                <h2>Filmes, séries e muito mais. <br>
-                    Salve o mundo.
-                </h2>
+                <h2>Filmes, séries e muito mais.</h2>
+            </div>
+            <div class="info_p">
+                <h2>Salve o mundo.</h2>
             </div>
             <div class="info_p2">
                 <h2>Assista onde quiser. Cancele quando quiser</h2>
@@ -39,44 +37,46 @@
                 <h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.
                 </h3>
             </div>
-           <form class="form-mail" action="email">
-                <input class="label" type="text" id="fname" name="fname" value="Email">
-                <input class="botao3" type="submit" value="Vamos Lá">
-            </form> 
+               <div class="campo_email">
+                <input type="text" placeholder="Email">
+                <button>vamos lá <i class="fas fa-angle-right"></i></button>
+            </div>
         </div>
-    </main>
+        </div>
+</header>
 
+<main>
     <section class="sessao">
         <div class="container">
-            <div class="sessao_cont">
-            <p class="sessao1_p1">Aproveite na TV.</p>
-            <p class="sessao1_p2">Assista em Smart Tvs, Playstation, Xbox, <br>
+            <div>
+            <p class="sessao_p1">Aproveite na TV.</p>
+            <p class="sessao_p2">Assista em Smart Tvs, Playstation, Xbox, <br>
             Chromecast, Apple TV, aparelhos e Blue-ray e <br>
             outros dispositios.</p>
-        </div>
-        <div class="sessao1_img">
+           </div>
+        <div>
             <img src="./img/sessao1_img.jpg" alt="">
         </div>
     </div>
     </section>
 
-    <section class="sessao">
-        <div class="container2">
-            <div class="sessao_cont">
-            <p class="sessao1_p1">Baixe séries para <br> assistir offline</p>
-            <p class="sessao1_p2">Salve seus títulos favoritos e sempre <br> tenha algo para assistir.</p>
+   <section class="sessao">
+        <div class="container">
+           <div>
+                <img src="./img/sessao2_img.jpg" alt="">
+            </div>
+            <div>
+                <p class="sessao_p1">Baixe séries para <br> assistir offline</p>
+                <p class="sessao_p2">Salve seus títulos favoritos e sempre <br> tenha algo para assistir.</p>
+            </div>
         </div>
-        <div class="sessao1_img">
-            <img src="./img/sessao2_img.jpg" alt="">
-        </div>
-    </div>
     </section>
 
     <section class="sessao">
         <div class="container">
-            <div class="sessao_cont">
-            <p class="sessao1_p1">Assista quando quiser.</p>
-            <p class="sessao1_p2">Assista no celular, tablet, Smart TV ou <br> notebook sem pagar a mais por isso.</p>
+            <div>
+            <p class="sessao_p1">Assista quando quiser.</p>
+            <p class="sessao_p2">Assista no celular, tablet, Smart TV ou <br> notebook sem pagar a mais por isso.</p>
         </div>
         <div class="sessao1_img">
             <img src="./img/sessao3_img.png" alt="">
@@ -85,23 +85,23 @@
     </section>
 
     <section class="sessao">
-        <div class="container2">
-            <div class="sessao_cont">
-            <p class="sessao1_p1">Crie perfis para crianças.</p>
-            <p class="sessao1_p2">Deixe as crianças se aventurarem com seus <br> personagens favoritos em um espaço feito só <br> para elas, sem pagar a mais por isso.</p>
+        <div class="container">
+            <div class="sessao1_img">
+                <img src="./img/sessao4_img.png" alt="">
+            </div>
+            <div>
+            <p class="sessao_p1">Crie perfis para crianças.</p>
+            <p class="sessao_p2">Deixe as crianças se aventurarem com seus</p>
+            <p class="sessao_p2">personagens favoritos em um espaço feito só </p>
+            <p class="sessao_p2">para elas, sem pagar a mais por isso.</p>
         </div>
-        <div class="sessao1_img">
-            <img src="./img/sessao4_img.png" alt="">
-        </div>
-    </div>
+     </div>
     </section>
 
     <section class="perguntas">
-        <div class="container3">
-            <p class="p_perguntas">Perguntas frequentes</p>
-             
-        <div class="p_lista">
-            <ul>
+        <div class="container_p">
+            <p class="sessao_p1">Perguntas frequentes</p>
+                <div class="p_lista">    <ul>
                 <li>O que é a Henshin-Flix? <i class="fas fa-plus"></i></li>
                 <li>Quanto custa Henshin-Flix? <i class="fas fa-plus"></i></li>
                 <li>Onde posso assistir? <i class="fas fa-plus"></i></li>
@@ -109,71 +109,68 @@
                 <li>O que eu posso assistir na Henshin-Flix? <i class="fas fa-plus"></i></li>
                 <li>A Henshin-Flix é adequanda para crianças? <i class="fas fa-plus"></i></li>
             </ul>
-
-                      
-          </div>
-          
-          <div class="info_p3">
+</div>
+           <div class="info_p3">
             <h3>Pronto para assistir? Informe seu email para criar ou reiniciar sua assinatura.
             </h3>
         </div>
+ <div class="campo_email">
+                <input type="text" placeholder="Email">
+                <button>vamos lá <i class="fas fa-angle-right"></i></button>
+            </div>
+         </div>
+        </section>
+</main>
+
+<footer>
+    <div class="container">
+        <div>
+            <p class="sessao_p3">  DÚVIDAS? LIGUE 0800-666-7777  </p> 
         </div>
-        
-    </section>
+      
+        <div class="footer_q">  
+<div>
+    <p class="sessao_p4"><a href="#"></a> Perguntas frentes</p>
+    <p class="sessao_p4"><a href="#"></a>relações com investidores</p>
+    <p class="sessao_p4"><a href="#"></a>Formas de assistir</p>
+    <p class="sessao_p4"><a href="#"></a>Inforações corporativas</p>
+    <p class="sessao_p4"><a href="#"></a>Só na Henshin-Flix</p>
+</div>
+
+<div>
+    <p class="sessao_p4"><a href="#"></a>Centro de ajuda</p>
+    <p class="sessao_p4"><a href="#"></a>Carreiras</p>
+    <p class="sessao_p4"><a href="#"></a>Termo de uso</p>
+    <p class="sessao_p4"><a href="#"></a>Entre em contato</p>
+</div>
+
+<div>
+    <p class="sessao_p4">Conta</p>
+    <p class="sessao_p4">Resgatar cartão pré-pago</p>
+    <p class="sessao_p4">Privacidade</p>
+    <p class="sessao_p4">Teste de Velocidade</p>
+</div>
+
+<div>
+    <p class="sessao_p4"><a href="#"></a> Imprensa</p>
+    <p class="sessao_p4">Comprar cartão pré-pago</p>
+    <p class="sessao_p4">Preferência de cookies</p>
+    <p class="sessao_p4">Avisos legais</p>
+</div>
+
+    </div>
+
+    <div class="footer_btn">
+        <select name="idioma" id="idioma" class="botao1">
+           <option value="pt">Português</option>
+           <option value="en">English</option>
+        </select>
+     </div>
     
-    <form class="form-mail" action="email">
-        <input class="label" type="text" id="fname" name="fname" value="Email">
-        <input class="botao3" type="submit" value="Vamos Lá">
-    </form> 
+     <p class="sessao_p5">Henshin-Flix</p>
+    </div>
+</footer>
 
-    <footer>
-              
-        <div class="rodape">
-          
-            <div class="d_rodape">
-                <p class="p_rodape">Perguntas frequentes</p>
-                <p class="p_rodape">Centro de ajuda</p>
-                <p class="p_rodape">Conta</p>
-                <p class="p_rodape">Imprensa</p>
-                <p class="p_rodape">Relações com investidores</p>
-
-                <select name="idioma_r" id="idioma_r" class="botao_r"> <i class="fas fa-globe"></i>
-                    <option value="pt">Português</option>
-                    <option value="en">English</option>
-                  </select>
-            </div>
-
-            
-            <div class="d_rodape">
-                
-                <p class="p_rodape">Carreiras</p>
-                <p class="p_rodape">Resgatar cartão pré-pago</p>
-                <p class="p_rodape">Comprar cartão pré-pago</p>
-                <p class="p_rodape">Formad de assistir</p>
-                
-            </div>
-            <div class="d_rodape">
-                <p class="p_rodape">Termos de uso</p>
-                <p class="p_rodape">Privacidade</p>
-                <p class="p_rodape">Preferências de cookies</p>
-                <p class="p_rodape">Informações corporativas</p>
-                
-            </div>
-            
-            <div class="d_rodape">
-                <p class="p_rodape">Entre em contato</p>
-                <p class="p_rodape">Teste de velocidade</p>
-                <p class="p_rodape">Avisos legais</p>
-                <p class="p_rodape">Só na Henshin-Flix</p>
-            </div>
-                      
-        </div>
-        
-    </footer>  
-
-  
-
-    
     <script src="https://kit.fontawesome.com/c7c8d12480.js" crossorigin="anonymous"></script>
 
 </body>

@@ -4,8 +4,9 @@
     --vermelho:#e50914;
     --preto:#141414;
     --branco: #ffffff;
+    --cinza: #627575;
+    --cinza2: #303030;
 }
-
 
 *{
     margin: 0;
@@ -14,54 +15,224 @@
 }
 
 body{
-    background: var(--preto);
-    font-family: 'Source Sans Pro Black', Helvetica, sans-serif;
-    color: var(--branco);
-}
-
-.login_body{
-    display: flex;
-    justify-content: center;
-    
-    background-color: rgba(51,51,51);
-}
-
-
-.container{
-    
-   
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url(/Projetos/Clone_Netflix/img/fundo.jpg);
 }
 
 header .logo{
     color: var(--vermelho);
-    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Arial Black', Times, serif;
     font-size: 40px;
+    padding: 15px;
 }
 
+main .container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
 
-main .container{
-    
+main .box {
+    width: 35%;
+    height: 85%;
+    display: flex;
     flex-direction: column;
-    
-    
+    align-items: center;
+    align-content:space-around;  
+    background: rgba(0,0,0,0.7);
+}
+
+main .box_interna{
+    width: 70%;
+    height: 100%;
+    padding: 20px;
+}
+
+.p_m1{
+    font-size: 45px;
+    color: var(--branco);
+    margin-bottom: 20px;
+}
+
+.form-mail{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.form-mail input{
+    color: var(--cinza);
+
+}
+
+.label{
+    background: hsl(0, 0%, 20%);
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    color: var(--branco);
+    border-radius: 3px;
+    border: none;
+    padding: 0px 15pxpx;
+}
+
+button{
+    background: var(--vermelho);
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: var(--branco);
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+button a{
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.form-check{
+    margin-bottom: 30px;
+
+}
+
+.btn_check1{
+    font-size: 13px;
+    color: var(--branco);
+}
+
+.btn_check2{
+    float: right;
+    font-size: 13px;
+    color: var(--branco);
+    text-decoration: none;
+}
+
+.btn_check2:hover{
+    text-decoration:underline
+}
+
+.face{
+    margin-bottom: 20px;
+}
+.face a{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--cinza);
+    font-size: 15px;
+}
+
+.face i{
+    color: #405b9f;
+    font-size: 20px;
+}
+
+.p_m3, .p_m2{
+    color: var(--cinza);
+    float: left;
+    font-size: 14px;
+}
+
+.p_m2_1, .p_m3_1{
+    font-size: 14px;
+}
+
+.p_m2_1{
+    color: var(--branco);
+}
+
+.p_m2_1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.p_m3_1{
+    color: #009ddc;
+}
+
+.p_m3_1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+footer .container {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.l_main p{
-    font-size: 40px;
+footer .box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.7);
 }
 
-.f_main{
-    display: ;
-    flex-direction: column;
-}
-
-.f_main input{
-    background-color: rgba(51,51,51);
-    color: rgba(98,107,107);
-    padding: 15px;
-    width: 50%;
-    margin-top: 15px;
-
+footer .box_interna{
+    width: 80%;
+    height: 80%;
 
 }
+
+.p_footer_1{
+    color: var(--cinza);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.p_footer_2{
+    box-sizing: border-box;
+}
+
+.p_footer_2 ul{
+    display: flex;
+}
+
+.footer_link{
+    height: 20px;
+    width: 10%px;
+    margin-top: 10px;
+    box-sizing: content-box;
+    list-style: none;
+    margin-right: 15%;
+}
+
+.p_footer_2 li a{
+    text-decoration: none;
+    color: #757575;
+}
+
+.p_footer_2 li a:hover{
+    text-decoration: underline;
+}
+
+.botao1{
+    padding: 7px 20px;
+    background: none;
+    color: var(--branco);
+    border: var(--branco) 1px solid;
+    font-size: 15px;
+    border-radius: 3px;
+    margin-right: 30px;
+}
+
+option{
+    background-color: var(--cinza);
+}
+
+.footer_btn{
+    margin-top: 20px;
+}
+
+
+

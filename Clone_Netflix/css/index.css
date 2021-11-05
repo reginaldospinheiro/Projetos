@@ -4,18 +4,20 @@
     --vermelho:#e50914;
     --preto:#141414;
     --branco: #ffffff;
+    --cinza: #627575;
+    --cinza2: #303030;
 }
-
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
+    border: 0;
 }
 
 body{
     background: var(--preto);
-    font-family: 'Source Sans Pro Black', Helvetica, sans-serif;
+    font-family: 'Arial Black', Times, serif;
     color: var(--branco);
 }
 
@@ -24,219 +26,195 @@ body{
     margin-right: 30px;
 }
 
+header{
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url(/Projetos/Clone_Netflix/img/fundo.jpg);
+    height: 600px;
+    border-bottom: #222 8px solid;
+}
 
-header .container{
+body section{
+    border-bottom: #222 8px solid;
+}
+
+.menu{
     display: flex;
-    flex-direction: row;
-    align-items: center;
     justify-content: space-between;
-    margin-top: 15px;
 }
 
-header .logo{
+.logo{
     color: var(--vermelho);
-    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Arial Black', Times, serif;
     font-size: 40px;
+    margin-top: 20px;
 }
 
-option{
-    background-color: gray;
+.botao{
+    margin-top: 20px;
 }
 
 .botao1{
-    background-color: var(--preto);
+    padding: 7px 20px;
+    background: none;
     color: var(--branco);
-    padding: 8px 15px;
-    border: #ffffff solid 0.5px;
-    margin-right: 20px;
+    border: var(--branco) 1px solid;
     font-size: 15px;
     border-radius: 3px;
-    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 30px;
+}
+
+option{
+    background-color: var(--cinza);
 }
 
 .botao2{
-    background: var(--vermelho);
-    padding: 8px 18px;
+    padding: 9px 20px;
+    background-color: var(--vermelho);
     font-size: 15px;
-    border-radius: 5px;
-    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 30px;
 }
 
 .botao2 a{
+    color: var(--branco);
     text-decoration: none;
-    color: #ffffff;
 }
 
-.botao3{
-    background: var(--vermelho);
-    color: #ffffff;
-    padding: 10px;
-    width: 15%;
-    font-size: 30px;
+.menu_info{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.info_p{
+    font-size: 35px;
+}
+
+.info_p2{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.info_p3{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.campo_email{
+    display: flex;
+    width: 60%;
+    height: 50px;
+    margin-top: 20px;
+    background-color: var(--branco);
     border-radius: 3px;
-    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: var(--cinza) 1px solid;
+    
+}
+
+.campo_email input{
+    width: 80%;
+    height: 100%;
+    border: none;
+    padding: 0 10px;
+    border-radius: 3px;
+    color: var(--cinza);
+    background: transparent;
+}
+
+.campo_email button{
+    width: 20%;
+    height: 100%;
+    border: none;
+    border-radius: 3px;
+    background-color: var(--vermelho);
+    color: var(--branco);
+    font-size: 150%;
     cursor: pointer;
 }
 
-
-
-main .info_p{
-    font-size:40px;
-    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-top: 150px;
-    text-align: center;
-    justify-content: center;
-}
-
-main .info_p2{
-    font-size:18px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10px;
-    text-align: center;
-    justify-content: center;
-}
-
-main .info_p3{
-    font-size:14px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px;
-    text-align: center;
-    justify-content: center;
-}
-
-.label{
-    padding: 10px;
-    color: gray;
-    font-size: 4vh;
-    width: 40%;
-    border-radius: 3px;
-    
-}
-
-.form-mail{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
+.campo_email button:hover{
+    background-color: #f40612;
 }
 
 section{
-    
-    
+    border-bottom: var(--cinza) 10px solid;
+    padding: 40px;
 }
+
 section .container{
     display: flex;
-    margin-top: 90px;
-    align-items: center;
-    justify-content: center;
-    
+    flex-direction: row;
+    align-content: space-between;
+    align-items:center;
 }
 
-section .container .sessao_cont{
-    justify-content: start;
-    background-color: ;
-    padding: 50px;
-    margin-right: 90px;
-    margin-top: -150px;
-
-
-}
-
-section .sessao1_p1{
-    color: var(--branco);
+.sessao_p1{
     font-size: 50px;
-    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
 }
 
-section .sessao1_p2{
-    color: var(--branco);
-    font-size: 20px;
-    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+.sessao_p2{
+    font-size: 15px;
 }
 
-section .container2{
-    display: flex;
-    flex-direction: row-reverse;
-    margin-top: 90px;
-    align-items: center;
-    justify-content: center;
-}
-
-.perguntas{
-    align-items: center;
+section .container_p{
     display: flex;
     flex-direction: column;
-    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
 }
-
-.p_perguntas{
-    font-size: 60px;
-}
-
-
 
 .p_lista{
-    padding: 10px;
-    margin-top: 10px;
-    font-size: 30px;
-    margin-bottom: 30px;
-    
+    font-size: 15px;
+}
+
+.p_lista ul{
+    margin-top: 50px;
 }
 
 .p_lista ul li{
-    display: flex;
-    justify-content: space-between;
-    font-size: 20px;
-    background-color: rgb(48,48,48);
-    padding: 10px;
-    margin-top: 10px;
-      
-}
-
-footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    color: rgb(98,117,117);
-    
-}
-
-footer .rodape{
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: flex;
-    
-}
-
-footer .d_rodape{
-    margin-right: 70px;
-}
-
-footer .d_rodape p{
+    background-color: var(--cinza2);
+    margin-left: 0px;
+    padding: 20px;
+    width: 700px;
     margin-bottom: 10px;
+    font-size: 22px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
 }
 
-.botao_r{
-    margin-top: 20px;
-    background-color: var(--preto);
-    color: rgb(98,117,117);
-    padding: 12px 18px;
-    border: rgb(98,117,117) solid 0.5px;
-    margin-right: 20px;
-    font-size: 15px;
-    border-radius: 3px;
-    font-family: 'Source Sans Pro Black', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+.p_lista i{
+    float: right;
 }
 
-.botao_r:hover{
-    border: var(--branco) 1px solid;
+.sessao_p3{
+    color: var(--cinza);
+    margin-top: 30px;
+    margin-left: 330px;
     
 }
-
-select option{
-    background: var(--preto);
+.sessao_p4{
+    font-size: 12px;
+    color: var(--cinza);
+    margin-left: 50px;
+    margin-bottom: 15px;
+    cursor: pointer;
 }
+.sessao_p5{
+    font-size: 12px;
+    color: var(--cinza);
+    margin-left: 330px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer_q{
+    display: flex;
+    align-items:stretch;
+    padding: 30px;
+    margin-left: 250px;
+}
+
+.footer_btn{
+    margin-left: 330px;
+}
+
